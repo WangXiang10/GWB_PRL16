@@ -47,9 +47,13 @@ If you use GWB, please cite the following papers:
 ## Demo for GWB
 
 GWB can be integrated into any existing salient object detection models. 
+
 Run 'run.m' which using an image as source image and a saliency map as prior distribution, 
+
 this demo will first generate a initial salient region via dense CRF,
+
 and then generate a improved saliency map using GWB, and save it in the ResultsImproved path.
+
 A comparison will also be shown.
 
 
