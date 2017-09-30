@@ -9,7 +9,7 @@ If you use GWB, please cite the following papers:
 
 
     @article{wang2016geodesic,
-      title={Geodesic Weighted Bayesian Model for Saliency Optimization},
+      title={Geodesic Weighted {B}ayesian Model for Saliency Optimization},
       author={Wang, Xiang and Ma, Huimin and Chen, Xiaozhi},
       journal={Pattern Recognition Letters},
       volume={75},
@@ -35,12 +35,12 @@ If you use GWB, please cite the following papers:
 * mexopencv is required. Download mexopencv from https://github.com/kyamagu/mexopencv and  addpath('\path\to\mexopencv')
 * Please refer to http://www.philkr.net/ for compiling the dense crf code.
 
-@misc{vedaldi08vlfeat,
- Author = {A. Vedaldi and B. Fulkerson},
- Title = {{VLFeat}: An Open and Portable Library
-          of Computer Vision Algorithms},
- Year  = {2008},
- Howpublished = {\url{http://www.vlfeat.org/}}
+        @misc{vedaldi08vlfeat,
+         Author = {A. Vedaldi and B. Fulkerson},
+         Title = {{VLFeat}: An Open and Portable Library
+                  of Computer Vision Algorithms},
+         Year  = {2008},
+         Howpublished = {\url{http://www.vlfeat.org/}}
 
 
 
