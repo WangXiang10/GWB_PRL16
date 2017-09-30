@@ -1,12 +1,12 @@
 # Geodesic Weighted Bayesian Model for Saliency Optimization(GWB)
 Copyright 2016 Xiang Wang (wangxiang14@mails.tsinghua.edu.cn).
 
----------------------------------------------------------------------------
 ## Introduction
 
 GWB can be used to improve the quality of most existing salient object detection models with little computation overhead.
 **0.36s** per image.
 If you use GWB, please cite the following papers:
+
 
 @article{wang2016geodesic,
   title={Geodesic Weighted Bayesian Model for Saliency Optimization},
@@ -17,6 +17,8 @@ If you use GWB, please cite the following papers:
   year={2016},
   publisher={Elsevier}
 }
+
+
 @inproceedings{icip15gwb,
   author    = {Wang, Xiang and Ma, Huimin and Chen, Xiaozhi},
   title     = {Geodesic Weighted {B}ayesian Model for Salient Object Detection},
@@ -26,8 +28,8 @@ If you use GWB, please cite the following papers:
   doi	    = {10.1109/ICIP.2015.7350828}
 }
 
----------------------------------------------------------------------------
-2. Installation
+\
+## Installation
 
 * vlfeat toolbox is required. Download vlfeat from http://www.vlfeat.org/ and addpath('\path\to\vlfeat')
 * mexopencv is required. Download mexopencv from https://github.com/kyamagu/mexopencv and  addpath('\path\to\mexopencv')
@@ -42,7 +44,7 @@ If you use GWB, please cite the following papers:
 
 
 ---------------------------------------------------------------------------
-3. Demo for GWB
+## Demo for GWB
 
 GWB can be integrated into any existing salient object detection models. 
 Run 'run.m' which using an image as source image and a saliency map as prior distribution, 
@@ -52,7 +54,7 @@ A comparison will also be shown.
 
 
 ---------------------------------------------------------------------------
-4. Acknowledgements
+## Acknowledgements
 
 We use or modify: 
 * K. van de Sande's code for colorspaces conversion, 
