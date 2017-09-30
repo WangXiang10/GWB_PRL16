@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\7e3b98ad307c4c25f637ae5312b5514f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C94D9903-87CE-4C51-AFBF-CAD339078847}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

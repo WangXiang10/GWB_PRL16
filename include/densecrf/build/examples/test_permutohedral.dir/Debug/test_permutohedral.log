@@ -1,0 +1,138 @@
+﻿生成启动时间为 2015-06-03 14:38:12。
+     1>项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\examples\test_permutohedral.vcxproj”在节点 7 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_permutohedral.dir\Debug\\" /Fd"test_permutohedral.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp"
+         test_permutohedral.cpp
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(36): error C2146: 语法错误: 缺少“;”(在标识符“f_”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(36): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(38): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(38): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(41): error C2146: 语法错误: 缺少“;”(在标识符“initialValue”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(41): error C2433: “PermutohedralEnergy::VectorXf”: 不允许在数据声明中使用“virtual”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(45): warning C4183: “initialValue”: 缺少返回类型；假定为返回“int”的成员函数
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(46): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(46): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(51): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(51): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(62): error C2555: “PermutohedralEnergy::initialValue”: 重写虚函数返回类型有差异，且不是来自“EnergyFunction::initialValue”的协变
+                 E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include\optimization.h(32) : 参见“EnergyFunction::initialValue”的声明
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(38): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(38): error C2065: “v0”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(38): error C2065: “v1”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(38): error C2614: “PermutohedralEnergy”: 非法的成员初始化:“v1_”不是基或成员
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(38): error C2614: “PermutohedralEnergy”: 非法的成员初始化:“v0_”不是基或成员
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(38): error C2614: “PermutohedralEnergy”: 非法的成员初始化:“f_”不是基或成员
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(39): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(42): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(42): error C2146: 语法错误: 缺少“;”(在标识符“f”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(42): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(42): error C2065: “f_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(43): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(43): error C2228: “.resize”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(43): error C2065: “f_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(43): error C2228: “.cols”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(43): error C2228: “.rows”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(44): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(47): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(47): error C2146: 语法错误: 缺少“;”(在标识符“f”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(47): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(47): error C2065: “v”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(48): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(48): error C2228: “.resize”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(48): error C2065: “f_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(48): error C2228: “.rows”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(48): error C2228: “.cols”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(49): error C2065: “f_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(49): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(52): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(52): error C2146: 语法错误: 缺少“;”(在标识符“f”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(52): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(52): error C2065: “x”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(53): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(53): error C2228: “.resizeLike”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(53): error C2065: “f_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(54): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(56): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(56): error C2146: 语法错误: 缺少“;”(在标识符“bv”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(56): error C2065: “bv”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(56): error C2065: “v1_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(57): error C2065: “dx”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(57): error C2065: “x”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(58): error C2065: “dx”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(58): error C2228: “.data”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(58): error C2065: “v0_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(58): error C2065: “v1_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(58): error C2228: “.rows”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(60): error C2065: “bv”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(60): error C2228: “.array”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(60): error C2065: “v0_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(60): error C2228: “.sum”的左边必须有类/结构/联合
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(66): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(66): error C2146: 语法错误: 缺少“;”(在标识符“f”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(66): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(66): error C2653: “MatrixXf”: 不是类或命名空间名称
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(66): error C3861: “Random”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(67): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(67): error C2146: 语法错误: 缺少“;”(在标识符“a”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(67): error C2065: “a”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(67): error C2653: “MatrixXf”: 不是类或命名空间名称
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(67): error C2065: “b”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(67): error C3861: “Random”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(68): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(68): error C2146: 语法错误: 缺少“;”(在标识符“p”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(68): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(69): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(69): error C2228: “.array”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(69): error C2065: “a”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(69): error C2065: “b”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(69): error C2259: “PermutohedralEnergy”: 不能实例化抽象类
+                 由于下列成员:
+                 “double EnergyFunction::gradient(const Eigen::VectorXf &,Eigen::VectorXf &)”: 是抽象的
+                 E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include\optimization.h(33) : 参见“EnergyFunction::gradient”的声明
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(70): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(70): error C2228: “.cols”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(70): error C2228: “.rows”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(71): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(73): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(73): error C2228: “.array”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(74): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(76): error C2065: “VectorXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(76): error C2146: 语法错误: 缺少“;”(在标识符“g”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(76): error C2065: “g”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(76): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(77): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(77): error C2065: “g”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(78): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(78): error C2228: “.transpose”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(79): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(80): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(80): error C2065: “g”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(81): error C2065: “g”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(81): error C2228: “.transpose”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(82): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(82): error C2228: “.transpose”的左边必须有类/结构/联合
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(83): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(83): error C2228: “.transpose”的左边必须有类/结构/联合
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_permutohedral.cpp(83): fatal error C1003: 错误计数超过 100；正在停止编译
+     1>已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\examples\test_permutohedral.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.63

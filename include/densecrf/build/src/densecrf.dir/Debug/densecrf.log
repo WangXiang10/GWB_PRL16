@@ -1,0 +1,68 @@
+﻿生成启动时间为 2015-06-03 14:36:39。
+     1>项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\src\densecrf.vcxproj”在节点 3 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/src/CMakeLists.txt
+         CMake does not need to re-run because E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\src\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include" /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\..\external\liblbfgs\include" /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\..\external" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"densecrf.dir\Debug\\" /Fd"densecrf.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\util.cpp" "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp" "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\unary.cpp" "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\pairwise.cpp" "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\objective.cpp" "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\densecrf.cpp" "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\labelcompatibility.cpp"
+         util.cpp
+         permutohedral.cpp
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(61): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(92): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(110): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(326): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(327): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(353): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(356): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(374): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(388): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(389): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(426): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(431): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(505): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(510): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(601): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(603): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(623): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(625): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(628): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\permutohedral.cpp(655): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         unary.cpp
+         pairwise.cpp
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\pairwise.cpp(41): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\pairwise.cpp(56): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\pairwise.cpp(60): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\pairwise.cpp(84): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+         objective.cpp
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\objective.cpp(39): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\objective.cpp(52): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\objective.cpp(68): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\objective.cpp(84): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\objective.cpp(103): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\objective.cpp(105): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         densecrf.cpp
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\densecrf.cpp(173): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\densecrf.cpp(278): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\densecrf.cpp(284): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\densecrf.cpp(313): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\densecrf.cpp(317): warning C4244: “+=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\densecrf.cpp(324): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\densecrf.cpp(340): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\densecrf.cpp(344): warning C4244: “+=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\densecrf.cpp(351): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+         labelcompatibility.cpp
+         正在生成代码...
+       Lib:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\src\Debug\densecrf.lib" /NOLOGO /MACHINE:X64 densecrf.dir\Debug\util.obj
+         densecrf.dir\Debug\permutohedral.obj
+         densecrf.dir\Debug\unary.obj
+         densecrf.dir\Debug\pairwise.obj
+         densecrf.dir\Debug\objective.obj
+         densecrf.dir\Debug\densecrf.obj
+         densecrf.dir\Debug\labelcompatibility.obj
+         densecrf.vcxproj -> E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\src\Debug\densecrf.lib
+     1>已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\src\densecrf.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.66

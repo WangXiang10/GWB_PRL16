@@ -1,0 +1,241 @@
+﻿生成启动时间为 2015-08-10 19:10:08。
+     1>项目“E:\wangxiang\Research\Saliency\meanfield-matlab-master_3\include\densecrf\densecrf.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Program Files\MATLAB\R2014a\extern\include\win64" /ID:\Software\MATLAB\R2014a\extern\include\win64 /ID:\Software\MATLAB\R2014a\extern\include /I"D:\Program Files\MATLAB\R2014a\extern\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\densecrf_mex.cpp "..\maxflow-v3.03.src\graph.cpp" "..\maxflow-v3.03.src\maxflow.cpp" ..\probImage\probimage.cpp "..\TRW_S-v1.3\example.cpp" "..\TRW_S-v1.3\minimize.cpp" "..\TRW_S-v1.3\MRFEnergy.cpp" "..\TRW_S-v1.3\ordering.cpp" "..\TRW_S-v1.3\treeProbabilities.cpp" external\liblbfgs\lib\lbfgs.cpp src\densecrf.cpp src\labelcompatibility.cpp src\objective.cpp src\optimization.cpp src\pairwise.cpp src\permutohedral.cpp src\unary.cpp src\util.cpp
+         util.cpp
+         unary.cpp
+         permutohedral.cpp
+     1>src\permutohedral.cpp(61): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\permutohedral.cpp(92): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\permutohedral.cpp(110): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\permutohedral.cpp(326): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\permutohedral.cpp(327): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\permutohedral.cpp(353): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\permutohedral.cpp(356): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\permutohedral.cpp(374): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\permutohedral.cpp(388): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>src\permutohedral.cpp(389): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>src\permutohedral.cpp(426): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>src\permutohedral.cpp(431): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+     1>src\permutohedral.cpp(505): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\permutohedral.cpp(510): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+     1>src\permutohedral.cpp(601): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\permutohedral.cpp(603): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\permutohedral.cpp(623): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\permutohedral.cpp(625): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\permutohedral.cpp(628): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+     1>src\permutohedral.cpp(655): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         pairwise.cpp
+     1>src\pairwise.cpp(41): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+     1>src\pairwise.cpp(56): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\pairwise.cpp(60): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\pairwise.cpp(84): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+         optimization.cpp
+     1>src\optimization.cpp(70): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+     1>src\optimization.cpp(112): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\optimization.cpp(132): warning C4244: “参数”: 从“int”转换到“const float”，可能丢失数据
+     1>src\optimization.cpp(132): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         objective.cpp
+     1>src\objective.cpp(39): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+     1>src\objective.cpp(52): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\objective.cpp(68): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+     1>src\objective.cpp(84): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+     1>src\objective.cpp(103): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\objective.cpp(105): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         labelcompatibility.cpp
+         densecrf.cpp
+     1>src\densecrf.cpp(176): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\densecrf.cpp(281): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\densecrf.cpp(287): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\densecrf.cpp(316): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\densecrf.cpp(320): warning C4244: “+=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>src\densecrf.cpp(327): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\densecrf.cpp(343): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\densecrf.cpp(347): warning C4244: “+=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>src\densecrf.cpp(354): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+         lbfgs.cpp
+         treeProbabilities.cpp
+         ordering.cpp
+         MRFEnergy.cpp
+     1>..\TRW_S-v1.3\MRFEnergy.cpp(27): warning C4812: 过时的声明样式: 请改用“MRFEnergy<T>::~MRFEnergy”
+     1>..\TRW_S-v1.3\MRFEnergy.cpp(27): warning C4812: 过时的声明样式: 请改用“MRFEnergy<T>::~MRFEnergy”
+                 with
+                 [
+                     T=TypeBinary
+                 ]
+                 ..\TRW_S-v1.3\MRFEnergy.cpp(28): 编译类 模板 成员函数“MRFEnergy<T>::~MRFEnergy(void)”时
+                 with
+                 [
+                     T=TypeBinary
+                 ]
+                 e:\wangxiang\research\saliency\meanfield-matlab-master_3\include\trw_s-v1.3\instances.inc(4): 参见对正在编译的类 模板 实例化“MRFEnergy<T>”的引用
+                 with
+                 [
+                     T=TypeBinary
+                 ]
+     1>..\TRW_S-v1.3\MRFEnergy.cpp(27): warning C4812: 过时的声明样式: 请改用“MRFEnergy<T>::~MRFEnergy”
+                 with
+                 [
+                     T=TypeBinaryFast
+                 ]
+                 ..\TRW_S-v1.3\MRFEnergy.cpp(28): 编译类 模板 成员函数“MRFEnergy<T>::~MRFEnergy(void)”时
+                 with
+                 [
+                     T=TypeBinaryFast
+                 ]
+                 e:\wangxiang\research\saliency\meanfield-matlab-master_3\include\trw_s-v1.3\instances.inc(5): 参见对正在编译的类 模板 实例化“MRFEnergy<T>”的引用
+                 with
+                 [
+                     T=TypeBinaryFast
+                 ]
+     1>..\TRW_S-v1.3\MRFEnergy.cpp(27): warning C4812: 过时的声明样式: 请改用“MRFEnergy<T>::~MRFEnergy”
+                 with
+                 [
+                     T=TypePotts
+                 ]
+                 ..\TRW_S-v1.3\MRFEnergy.cpp(28): 编译类 模板 成员函数“MRFEnergy<T>::~MRFEnergy(void)”时
+                 with
+                 [
+                     T=TypePotts
+                 ]
+                 e:\wangxiang\research\saliency\meanfield-matlab-master_3\include\trw_s-v1.3\instances.inc(6): 参见对正在编译的类 模板 实例化“MRFEnergy<T>”的引用
+                 with
+                 [
+                     T=TypePotts
+                 ]
+     1>..\TRW_S-v1.3\MRFEnergy.cpp(27): warning C4812: 过时的声明样式: 请改用“MRFEnergy<T>::~MRFEnergy”
+                 with
+                 [
+                     T=TypeGeneral
+                 ]
+                 ..\TRW_S-v1.3\MRFEnergy.cpp(28): 编译类 模板 成员函数“MRFEnergy<T>::~MRFEnergy(void)”时
+                 with
+                 [
+                     T=TypeGeneral
+                 ]
+                 e:\wangxiang\research\saliency\meanfield-matlab-master_3\include\trw_s-v1.3\instances.inc(7): 参见对正在编译的类 模板 实例化“MRFEnergy<T>”的引用
+                 with
+                 [
+                     T=TypeGeneral
+                 ]
+     1>..\TRW_S-v1.3\MRFEnergy.cpp(27): warning C4812: 过时的声明样式: 请改用“MRFEnergy<T>::~MRFEnergy”
+                 with
+                 [
+                     T=TypeTruncatedLinear
+                 ]
+                 ..\TRW_S-v1.3\MRFEnergy.cpp(28): 编译类 模板 成员函数“MRFEnergy<T>::~MRFEnergy(void)”时
+                 with
+                 [
+                     T=TypeTruncatedLinear
+                 ]
+                 e:\wangxiang\research\saliency\meanfield-matlab-master_3\include\trw_s-v1.3\instances.inc(8): 参见对正在编译的类 模板 实例化“MRFEnergy<T>”的引用
+                 with
+                 [
+                     T=TypeTruncatedLinear
+                 ]
+     1>..\TRW_S-v1.3\MRFEnergy.cpp(27): warning C4812: 过时的声明样式: 请改用“MRFEnergy<T>::~MRFEnergy”
+                 with
+                 [
+                     T=TypeTruncatedQuadratic
+                 ]
+                 ..\TRW_S-v1.3\MRFEnergy.cpp(28): 编译类 模板 成员函数“MRFEnergy<T>::~MRFEnergy(void)”时
+                 with
+                 [
+                     T=TypeTruncatedQuadratic
+                 ]
+                 e:\wangxiang\research\saliency\meanfield-matlab-master_3\include\trw_s-v1.3\instances.inc(9): 参见对正在编译的类 模板 实例化“MRFEnergy<T>”的引用
+                 with
+                 [
+                     T=TypeTruncatedQuadratic
+                 ]
+     1>..\TRW_S-v1.3\MRFEnergy.cpp(27): warning C4812: 过时的声明样式: 请改用“MRFEnergy<T>::~MRFEnergy”
+                 with
+                 [
+                     T=TypeTruncatedLinear2D
+                 ]
+                 ..\TRW_S-v1.3\MRFEnergy.cpp(28): 编译类 模板 成员函数“MRFEnergy<T>::~MRFEnergy(void)”时
+                 with
+                 [
+                     T=TypeTruncatedLinear2D
+                 ]
+                 e:\wangxiang\research\saliency\meanfield-matlab-master_3\include\trw_s-v1.3\instances.inc(10): 参见对正在编译的类 模板 实例化“MRFEnergy<T>”的引用
+                 with
+                 [
+                     T=TypeTruncatedLinear2D
+                 ]
+     1>..\TRW_S-v1.3\MRFEnergy.cpp(27): warning C4812: 过时的声明样式: 请改用“MRFEnergy<T>::~MRFEnergy”
+                 with
+                 [
+                     T=TypeTruncatedQuadratic2D
+                 ]
+                 ..\TRW_S-v1.3\MRFEnergy.cpp(28): 编译类 模板 成员函数“MRFEnergy<T>::~MRFEnergy(void)”时
+                 with
+                 [
+                     T=TypeTruncatedQuadratic2D
+                 ]
+                 e:\wangxiang\research\saliency\meanfield-matlab-master_3\include\trw_s-v1.3\instances.inc(11): 参见对正在编译的类 模板 实例化“MRFEnergy<T>”的引用
+                 with
+                 [
+                     T=TypeTruncatedQuadratic2D
+                 ]
+         minimize.cpp
+         example.cpp
+         probimage.cpp
+     1>..\probImage\probimage.cpp(35): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\probImage\probimage.cpp(41): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\probImage\probimage.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\probImage\probimage.cpp(85): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\probImage\probimage.cpp(101): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         maxflow.cpp
+         graph.cpp
+         densecrf_mex.cpp
+     1>..\densecrf_mex.cpp(45): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>..\densecrf_mex.cpp(170): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\densecrf_mex.cpp(174): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\densecrf_mex.cpp(289): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>e:\wangxiang\research\saliency\meanfield-matlab-master_3\include\cppmatrix.h(128): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+                 e:\wangxiang\research\saliency\meanfield-matlab-master_3\include\cppmatrix.h(122): 编译类 模板 成员函数“matrix<T>::matrix(const mxArray *)”时
+                 with
+                 [
+                     T=float
+                 ]
+                 ..\densecrf_mex.cpp(25): 参见对正在编译的函数 模板 实例化“matrix<T>::matrix(const mxArray *)”的引用
+                 with
+                 [
+                     T=float
+                 ]
+                 ..\densecrf_mex.cpp(25): 参见对正在编译的类 模板 实例化“matrix<T>”的引用
+                 with
+                 [
+                     T=float
+                 ]
+         正在生成代码...
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Program Files\MATLAB\R2014a\extern\include\win64" /ID:\Software\MATLAB\R2014a\extern\include\win64 /ID:\Software\MATLAB\R2014a\extern\include /I"D:\Program Files\MATLAB\R2014a\extern\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TC /errorReport:prompt external\liblbfgs\lib\lbfgs.c
+         lbfgs.c
+       Link:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\wangxiang\Research\Saliency\meanfield-matlab-master_3\include\x64\Debug\densecrf.exe" /INCREMENTAL /NOLOGO libmat.lib libmx.lib libmex.lib libeng.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\wangxiang\Research\Saliency\meanfield-matlab-master_3\include\x64\Debug\densecrf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\wangxiang\Research\Saliency\meanfield-matlab-master_3\include\x64\Debug\densecrf.lib" /MACHINE:X64 x64\Debug\densecrf_mex.obj
+         x64\Debug\graph.obj
+         x64\Debug\maxflow.obj
+         x64\Debug\probimage.obj
+         x64\Debug\example.obj
+         x64\Debug\minimize.obj
+         x64\Debug\MRFEnergy.obj
+         x64\Debug\ordering.obj
+         x64\Debug\treeProbabilities.obj
+         x64\Debug\lbfgs.obj
+         x64\Debug\lbfgs.obj
+         x64\Debug\densecrf.obj
+         x64\Debug\labelcompatibility.obj
+         x64\Debug\objective.obj
+         x64\Debug\optimization.obj
+         x64\Debug\pairwise.obj
+         x64\Debug\permutohedral.obj
+         x64\Debug\unary.obj
+         x64\Debug\util.obj
+     1>x64\Debug\lbfgs.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+         densecrf.vcxproj -> E:\wangxiang\Research\Saliency\meanfield-matlab-master_3\include\x64\Debug\densecrf.exe
+     1>已完成生成项目“E:\wangxiang\Research\Saliency\meanfield-matlab-master_3\include\densecrf\densecrf.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.15

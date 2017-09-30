@@ -1,0 +1,30 @@
+﻿生成启动时间为 2015-06-03 14:36:39。
+     1>项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\src\optimization.vcxproj”在节点 3 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/src/CMakeLists.txt
+         CMake does not need to re-run because E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\src\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include" /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\..\external\liblbfgs\include" /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\..\external" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"optimization.dir\Debug\\" /Fd"optimization.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\optimization.cpp"
+         optimization.cpp
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\optimization.cpp(70): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\optimization.cpp(112): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\optimization.cpp(132): warning C4244: “参数”: 从“int”转换到“const float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\optimization.cpp(132): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>D:\Software\Microsoft Visual Studio 11.0\VC\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 D:\Software\Microsoft Visual Studio 11.0\VC\include\xutility(2157) : 参见“std::_Copy_impl”的声明
+                 E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\src\optimization.cpp(43): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const lbfgsfloatval_t*,float*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=float *,
+                     _InIt=const lbfgsfloatval_t *
+                 ]
+                 D:\Software\Microsoft Visual Studio 11.0\VC\include\xutility(2157) : 参见“std::_Copy_impl”的声明
+                 D:\Software\Microsoft Visual Studio 11.0\VC\include\xutility(2157) : 参见“std::_Copy_impl”的声明
+       Lib:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\src\Debug\optimization.lib" /NOLOGO /MACHINE:X64 optimization.dir\Debug\optimization.obj
+         optimization.vcxproj -> E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\src\Debug\optimization.lib
+     1>已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\src\optimization.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.21

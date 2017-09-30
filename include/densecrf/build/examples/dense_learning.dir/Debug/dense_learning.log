@@ -1,0 +1,46 @@
+﻿生成启动时间为 2015-06-03 14:38:12。
+     1>项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\examples\dense_learning.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dense_learning.dir\Debug\\" /Fd"dense_learning.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp"
+         dense_learning.cpp
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(64): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(68): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(116): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(116): error C2146: 语法错误: 缺少“;”(在标识符“logistic_feature”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(116): error C3861: “logistic_feature”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(116): error C3861: “logistic_transform”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(117): error C2065: “logistic_feature”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(117): error C2228: “.fill”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(120): error C3861: “logistic_feature”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(122): error C2065: “logistic_transform”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(122): error C2228: “.cols”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(123): error C2065: “logistic_transform”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(123): error C2228: “.rows”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(124): error C3861: “logistic_transform”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(124): error C3861: “random”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(129): error C2065: “logistic_transform”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(129): error C2065: “logistic_feature”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(134): error C2653: “MatrixXf”: 不是类或命名空间名称
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(134): error C3861: “Identity”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(146): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(146): error C2146: 语法错误: 缺少“;”(在标识符“learning_params”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(146): error C3861: “learning_params”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(151): error C2065: “learning_params”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(155): error C2065: “learning_params”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(155): error C2228: “.rows”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(157): error C3861: “learning_params”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(158): warning C4305: “参数”: 从“double”到“float”截断
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(165): error C3861: “learning_params”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(167): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(169): error C3861: “learning_params”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(171): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_learning.cpp(173): error C3861: “learning_params”: 找不到标识符
+     1>已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\examples\dense_learning.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.76

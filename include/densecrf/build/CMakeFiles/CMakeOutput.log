@@ -1,0 +1,243 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 4.0.30319.18408
+[Microsoft .NET Framework 版本 4.0.30319.18449]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015-06-03 14:36:10。
+节点 1 上的项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\3.1.0\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\3.1.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\3.1.0\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.14
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/3.1.0/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 4.0.30319.18408
+[Microsoft .NET Framework 版本 4.0.30319.18449]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015-06-03 14:36:11。
+节点 1 上的项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\3.1.0\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\3.1.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\3.1.0\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.30
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/3.1.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec622911403.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.0.30319.18408
+[Microsoft .NET Framework 版本 4.0.30319.18449]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015-06-03 14:36:12。
+节点 1 上的项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\cmTryCompileExec622911403.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec622911403.dir\Debug\”。
+  正在创建目录“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec622911403.dir\Debug\cmTryCompileExec622911403.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec622911403.dir\Debug\\" /Fd"cmTryCompileExec622911403.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 17.00.61030 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec622911403.dir\Debug\\" /Fd"cmTryCompileExec622911403.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec622911403.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec622911403.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec622911403.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec622911403.dir\Debug\testCCompiler.obj
+  cmTryCompileExec622911403.vcxproj -> E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec622911403.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec622911403.dir\Debug\cmTryCompileExec622911403.unsuccessfulbuild”。
+  正在对“cmTryCompileExec622911403.dir\Debug\cmTryCompileExec622911403.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\cmTryCompileExec622911403.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.64
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec546640102.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.0.30319.18408
+[Microsoft .NET Framework 版本 4.0.30319.18449]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015-06-03 14:36:13。
+节点 1 上的项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\cmTryCompileExec546640102.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec546640102.dir\Debug\”。
+  正在创建目录“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec546640102.dir\Debug\cmTryCompileExec546640102.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec546640102.dir\Debug\\" /Fd"cmTryCompileExec546640102.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "D:\Software\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 17.00.61030 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec546640102.dir\Debug\\" /Fd"cmTryCompileExec546640102.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "D:\Software\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec546640102.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec546640102.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec546640102.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec546640102.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec546640102.vcxproj -> E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec546640102.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec546640102.dir\Debug\cmTryCompileExec546640102.unsuccessfulbuild”。
+  正在对“cmTryCompileExec546640102.dir\Debug\cmTryCompileExec546640102.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\cmTryCompileExec546640102.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.29
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3045769792.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.0.30319.18408
+[Microsoft .NET Framework 版本 4.0.30319.18449]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015-06-03 14:36:14。
+节点 1 上的项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\cmTryCompileExec3045769792.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3045769792.dir\Debug\”。
+  正在创建目录“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3045769792.dir\Debug\cmTryCompileExec3045769792.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3045769792.dir\Debug\\" /Fd"cmTryCompileExec3045769792.dir\Debug\vc110.pdb" /Gd /TP /errorReport:queue "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 17.00.61030 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3045769792.dir\Debug\\" /Fd"cmTryCompileExec3045769792.dir\Debug\vc110.pdb" /Gd /TP /errorReport:queue "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3045769792.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3045769792.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3045769792.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3045769792.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec3045769792.vcxproj -> E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3045769792.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3045769792.dir\Debug\cmTryCompileExec3045769792.unsuccessfulbuild”。
+  正在对“cmTryCompileExec3045769792.dir\Debug\cmTryCompileExec3045769792.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\cmTryCompileExec3045769792.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.29
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3464619571.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.0.30319.18408
+[Microsoft .NET Framework 版本 4.0.30319.18449]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015-06-03 14:36:14。
+节点 1 上的项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\cmTryCompileExec3464619571.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3464619571.dir\Debug\”。
+  正在创建目录“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3464619571.dir\Debug\cmTryCompileExec3464619571.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3464619571.dir\Debug\\" /Fd"cmTryCompileExec3464619571.dir\Debug\vc110.pdb" /Gd /TP /errorReport:queue "D:\Software\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 17.00.61030 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3464619571.dir\Debug\\" /Fd"cmTryCompileExec3464619571.dir\Debug\vc110.pdb" /Gd /TP /errorReport:queue "D:\Software\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3464619571.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3464619571.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/wangxiang/Code_Material/Probabilistic Graphical Model/densecrf/meanfield-matlab-master/meanfield-matlab-master/include/densecrf/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3464619571.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3464619571.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec3464619571.vcxproj -> E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3464619571.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3464619571.dir\Debug\cmTryCompileExec3464619571.unsuccessfulbuild”。
+  正在对“cmTryCompileExec3464619571.dir\Debug\cmTryCompileExec3464619571.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\CMakeFiles\CMakeTmp\cmTryCompileExec3464619571.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.29
+
+

@@ -1,0 +1,28 @@
+﻿生成启动时间为 2015-06-03 14:38:56。
+     1>项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\examples\dense_inference.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dense_inference.dir\Debug\\" /Fd"dense_inference.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp"
+         dense_inference.cpp
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(37): error C2146: 语法错误: 缺少“;”(在标识符“computeUnary”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(37): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(38): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(39): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(41): error C2146: 语法错误: 缺少“;”(在标识符“r”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(41): error C3861: “r”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(42): error C2065: “r”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(42): error C2228: “.fill”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(47): error C2065: “r”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(47): error C2228: “.col”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(47): error C2228: “.fill”的左边必须有类/结构/联合
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(48): error C3861: “r”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(51): error C2065: “r”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(79): error C2146: 语法错误: 缺少“;”(在标识符“unary”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(79): error C2065: “unary”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\dense_inference.cpp(86): error C2065: “unary”: 未声明的标识符
+     1>已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\examples\dense_inference.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.51

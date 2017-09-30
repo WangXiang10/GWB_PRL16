@@ -1,0 +1,87 @@
+﻿生成启动时间为 2015-06-03 14:38:12。
+     1>项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\examples\test_pairwise.vcxproj”在节点 6 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_pairwise.dir\Debug\\" /Fd"test_pairwise.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp"
+         test_pairwise.cpp
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(36): error C2146: 语法错误: 缺少“;”(在标识符“v0_”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(36): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(38): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(38): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(40): error C2146: 语法错误: 缺少“;”(在标识符“initialValue”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(40): error C2433: “PairwiseEnergy::VectorXf”: 不允许在数据声明中使用“virtual”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(40): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(42): warning C4183: “initialValue”: 缺少返回类型；假定为返回“int”的成员函数
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(43): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(46): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(46): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(53): error C2555: “PairwiseEnergy::initialValue”: 重写虚函数返回类型有差异，且不是来自“EnergyFunction::initialValue”的协变
+                 E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include\optimization.h(32) : 参见“EnergyFunction::initialValue”的声明
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(38): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(38): error C2065: “v0”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(38): error C2065: “v1”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(38): error C2614: “PairwiseEnergy”: 非法的成员初始化:“v1_”不是基或成员
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(38): error C2614: “PairwiseEnergy”: 非法的成员初始化:“v0_”不是基或成员
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(41): error C2440: “return”: 无法从“Eigen::VectorXf”转换为“int”
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(44): error C2065: “v”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(47): error C2065: “x”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(48): error C2065: “dx”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(48): error C2065: “v0_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(48): error C2065: “v1_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(49): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(49): error C2146: 语法错误: 缺少“;”(在标识符“tmp”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(49): error C2065: “tmp”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(49): error C2065: “v1_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(50): error C2065: “tmp”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(50): error C2065: “v1_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(51): error C2065: “tmp”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(51): error C2228: “.array”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(51): error C2065: “v0_”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(51): error C2228: “.sum”的左边必须有类/结构/联合
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(57): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(57): error C2146: 语法错误: 缺少“;”(在标识符“f”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(57): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(57): error C2653: “MatrixXf”: 不是类或命名空间名称
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(57): error C3861: “Random”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(58): error C2065: “MatrixXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(58): error C2146: 语法错误: 缺少“;”(在标识符“a”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(58): error C2065: “a”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(58): error C2653: “MatrixXf”: 不是类或命名空间名称
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(58): error C2065: “b”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(58): error C3861: “Random”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(59): error C2065: “f”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(59): error C2228: “.array”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(59): error C2065: “a”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(59): error C2259: “PairwiseEnergy”: 不能实例化抽象类
+                 由于下列成员:
+                 “double EnergyFunction::gradient(const Eigen::VectorXf &,Eigen::VectorXf &)”: 是抽象的
+                 E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include\optimization.h(33) : 参见“EnergyFunction::gradient”的声明
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(61): error C2065: “VectorXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(61): error C2146: 语法错误: 缺少“;”(在标识符“p”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(61): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(63): error C2065: “VectorXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(63): error C2146: 语法错误: 缺少“;”(在标识符“g”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(63): error C2065: “g”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(63): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(64): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(64): error C2065: “g”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(66): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(67): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(67): error C2065: “g”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(67): error C2228: “.transpose”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(68): error C2065: “g”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(68): error C2228: “.transpose”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(69): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(69): error C2228: “.transpose”的左边必须有类/结构/联合
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(70): error C2065: “p”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_pairwise.cpp(70): error C2228: “.transpose”的左边必须有类/结构/联合
+     1>已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\examples\test_pairwise.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.64

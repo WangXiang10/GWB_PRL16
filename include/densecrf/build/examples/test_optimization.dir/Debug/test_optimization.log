@@ -1,0 +1,41 @@
+﻿生成启动时间为 2015-06-03 14:38:12。
+     1>项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\examples\test_optimization.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_optimization.dir\Debug\\" /Fd"test_optimization.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp"
+         test_optimization.cpp
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(34): error C2146: 语法错误: 缺少“;”(在标识符“initialValue”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(34): error C2433: “ExampleEnergy::VectorXf”: 不允许在数据声明中使用“virtual”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(34): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(36): warning C4183: “initialValue”: 缺少返回类型；假定为返回“int”的成员函数
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(37): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(37): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(43): error C2555: “ExampleEnergy::initialValue”: 重写虚函数返回类型有差异，且不是来自“EnergyFunction::initialValue”的协变
+                 E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include\optimization.h(32) : 参见“EnergyFunction::initialValue”的声明
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(35): error C2653: “VectorXf”: 不是类或命名空间名称
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(35): error C3861: “Zero”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(38): error C2065: “x”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(39): error C2065: “dx”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(39): error C2065: “x”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(40): error C2065: “dx”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(40): error C2065: “x”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(47): error C2259: “ExampleEnergy”: 不能实例化抽象类
+                 由于下列成员:
+                 “double EnergyFunction::gradient(const Eigen::VectorXf &,Eigen::VectorXf &)”: 是抽象的
+                 E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\include\optimization.h(33) : 参见“EnergyFunction::gradient”的声明
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(48): error C2065: “VectorXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(48): error C2146: 语法错误: 缺少“;”(在标识符“m”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(48): error C2065: “m”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(50): error C2065: “VectorXf”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(50): error C2146: 语法错误: 缺少“;”(在标识符“g”的前面)
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(50): error C2065: “m”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(50): error C2228: “.rows”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(50): error C3861: “g”: 找不到标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(51): error C2065: “m”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(51): error C2065: “g”: 未声明的标识符
+     1>E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\examples\test_optimization.cpp(52): error C2065: “g”: 未声明的标识符
+     1>已完成生成项目“E:\wangxiang\Code_Material\Probabilistic Graphical Model\densecrf\meanfield-matlab-master\meanfield-matlab-master\include\densecrf\build\examples\test_optimization.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.59
