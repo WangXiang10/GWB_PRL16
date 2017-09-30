@@ -1,9 +1,8 @@
 # Geodesic Weighted Bayesian Model for Saliency Optimization(GWB)
-Created by Xiang Wang, Huimin Ma and Xiaozhi Chen
 Copyright 2016 Xiang Wang (wangxiang14@mails.tsinghua.edu.cn).
 
 ---------------------------------------------------------------------------
-1. Introduction
+## Introduction
 
 GWB can be used to improve the quality of most existing salient object detection models with little computation overhead.
 **0.36s** per image.
