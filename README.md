@@ -8,27 +8,27 @@ GWB can be used to improve the quality of most existing salient object detection
 If you use GWB, please cite the following papers:
 
 
-@article{wang2016geodesic,
-  title={Geodesic Weighted Bayesian Model for Saliency Optimization},
-  author={Wang, Xiang and Ma, Huimin and Chen, Xiaozhi},
-  journal={Pattern Recognition Letters},
-  volume={75},
-  pages={1--8},
-  year={2016},
-  publisher={Elsevier}
-}
+    @article{wang2016geodesic,
+      title={Geodesic Weighted Bayesian Model for Saliency Optimization},
+      author={Wang, Xiang and Ma, Huimin and Chen, Xiaozhi},
+      journal={Pattern Recognition Letters},
+      volume={75},
+      pages={1--8},
+      year={2016},
+      publisher={Elsevier}
+    }
 
 
-@inproceedings{icip15gwb,
-  author    = {Wang, Xiang and Ma, Huimin and Chen, Xiaozhi},
-  title     = {Geodesic Weighted {B}ayesian Model for Salient Object Detection},
-  booktitle = {IEEE ICIP},
-  year      = {2015},
-  pages	    = {397-401},
-  doi	    = {10.1109/ICIP.2015.7350828}
-}
+    @inproceedings{icip15gwb,
+      author    = {Wang, Xiang and Ma, Huimin and Chen, Xiaozhi},
+      title     = {Geodesic Weighted {B}ayesian Model for Salient Object Detection},
+      booktitle = {IEEE ICIP},
+      year      = {2015},
+      pages	    = {397-401},
+      doi	    = {10.1109/ICIP.2015.7350828}
+    }
 
-\
+
 ## Installation
 
 * vlfeat toolbox is required. Download vlfeat from http://www.vlfeat.org/ and addpath('\path\to\vlfeat')
@@ -43,7 +43,7 @@ If you use GWB, please cite the following papers:
  Howpublished = {\url{http://www.vlfeat.org/}}
 
 
----------------------------------------------------------------------------
+
 ## Demo for GWB
 
 GWB can be integrated into any existing salient object detection models. 
@@ -53,7 +53,6 @@ and then generate a improved saliency map using GWB, and save it in the ResultsI
 A comparison will also be shown.
 
 
----------------------------------------------------------------------------
 ## Acknowledgements
 
 We use or modify: 
